@@ -14,6 +14,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
+  ENV['ENVIRONMENT'] = 'test'
   
   # Set the environment to "test"
 ENV['RACK_ENV'] = 'test'
